@@ -25,6 +25,30 @@ class Pogram
         Valor03 = int.Parse(Console.ReadLine());
 
 
+
+        if (Valor01 > Valor02 && Valor01 > Valor03)
+        {
+
+            if (Valor02 > Valor03)
+            {
+                Console.WriteLine(Valor01);
+                Console.WriteLine(Valor02);
+                Console.WriteLine(Valor03);
+            }
+
+
+            else
+
+            {
+                Console.WriteLine(Valor01);
+                Console.WriteLine(Valor03);
+                Console.WriteLine(Valor02);
+            }
+
+        }
+
+
+
         if (Valor02 > Valor01 && Valor02 > Valor03)
         {
 
